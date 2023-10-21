@@ -34,7 +34,7 @@ else()
   option(INSTALL_DEMOS "Install the demo applications" OFF)
   option(BUILD_SHARED "Build and install the shared library" OFF)
   option(BUILD_STATIC "Build as static library" ON)
-  option(INSTALL_STATIC "Install the static library" ON)
+  option(INSTALL_STATIC "Install the static library" OFF)
 endif()
 
 if(CMAKE_C_COMPILER_ID STREQUAL "Clang")
